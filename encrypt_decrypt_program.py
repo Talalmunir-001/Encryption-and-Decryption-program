@@ -16,7 +16,7 @@ def caesar_cipher_encrypt(original_sentence):
 
 my_sentence = input("Enter the sentence here that you want to encrypt: ")
 encrypted_string = caesar_cipher_encrypt(my_sentence)
-print(encrypted_string)
+print(f"The encrypted sentence is: {encrypted_string}")
 
 
 #DECRYPTION
@@ -34,4 +34,4 @@ def caesar_cypher_decrypt(original_sentence):
 
 my_sentence1 = input("Enter the sentence here that you want to decrypt: ")
 decrypted_result = caesar_cypher_decrypt(my_sentence1)
-print(decrypted_result)
+print(f"The decrypted sentence is: {decrypted_result}")
