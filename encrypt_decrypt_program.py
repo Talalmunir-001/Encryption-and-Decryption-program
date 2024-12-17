@@ -1,6 +1,6 @@
 # QUESTION 2: MAKE AN ENCRYPTION AND DECRYPTION PROGRAM USING CAESAR CYPHER METHOD
 
-#ENCRYPTION
+# FUNCTION FOR ENCRYPTION
 def caesar_cipher_encrypt(original_sentence):
 
     encrypted_string = ""
@@ -14,12 +14,7 @@ def caesar_cipher_encrypt(original_sentence):
     return encrypted_string
 
 
-my_sentence = input("Enter the sentence here that you want to encrypt: ")
-encrypted_string = caesar_cipher_encrypt(my_sentence)
-print(f"The encrypted sentence is: {encrypted_string}")
-
-
-#DECRYPTION
+# FUNCTION FOR DECRYPTION
 def caesar_cypher_decrypt(original_sentence):
 
     decrypted_result = ""
@@ -32,6 +27,5 @@ def caesar_cypher_decrypt(original_sentence):
     return decrypted_result
 
 
-my_sentence1 = input("Enter the sentence here that you want to decrypt: ")
-decrypted_result = caesar_cypher_decrypt(my_sentence1)
-print(f"The decrypted sentence is: {decrypted_result}")
+print("Select one of these \nWrite 1 for Encryption \nWrite 2 for Decryption")
+selection = input("Enter your selection here: ")
